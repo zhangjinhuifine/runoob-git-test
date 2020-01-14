@@ -1,0 +1,17 @@
+#注册到“服务与发现服务器”的项目名称
+spring:
+  application:
+    name: usermas
+    
+#该服务的访问端口号
+server:
+  port: 8700
+
+eureka:
+  client:
+    service-url:
+      defalutZone: http://119.3.30.198/8761
+      
+
+  
+
